@@ -1,6 +1,6 @@
 from torchvision.datasets import EMNIST
 
-dataset= EMNIST('./', 'byclass',  train= True, download=True)
+dataset= EMNIST('./', 'balanced',  train= True, download=True)
 
 img = dataset[0][0]
 
